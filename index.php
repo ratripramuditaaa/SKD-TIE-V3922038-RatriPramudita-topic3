@@ -42,8 +42,8 @@ function vigenere_decrypt($ciphertext, $key) {
     return $plaintext;
 }
 
-$plaintext = "Ratri Pramudita";
-$key = "konsumsi";
+$plaintext = "Ratri devisi Konsumsi";
+$key = "HARI SABTU ADA KEGIATAN PEKAN PSDKU";
 
 $ciphertext = vigenere_encrypt($plaintext, $key);
 echo "Plaintext: " . $plaintext . "<br>";
